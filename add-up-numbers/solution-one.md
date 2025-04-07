@@ -1,23 +1,23 @@
-# [_sir](https://edabit.com/user/F7iZc3vpy7d9ALD6D)
-
 ```js
-function addUp(num) {
-  return (num * (num + 1))/2;
-}
+export const addUp = (num) => {
+  return (num * (num + 1)) / 2;
+};
 ```
 
 ## Strategy
+
 This function solves the problem of calculating the sum of all integers from 1
-to a given number `num`. The author, _sir, chose a mathematical approach using the
+to a given number `num`. I chose a mathematical approach using the
 formula for the sum of an arithmetic sequence, `(num * (num + 1)) / 2`, instead of
 iterating through numbers. This strategy is efficient and elegant, leveraging a
 well-known mathematical property to avoid loops or recursive calculations.
 
 ## Implementation
 
-_sir implemented the solution as a concise, one-line function:
+I implement the solution as a concise, two-lines function:
 
-**Arrow Function**: Arrow function has the parameter num, making it clear and reusable.
+**Arrow Function**: Simple arrow function has the parameter `num`, that's what makes
+it understandable and reusable.
 **Mathematical formula**: The expression `(num * (num + 1)) / 2` computes the sum
 of integers from 1 to num. This formula comes from the arithmetic series sum:
 `S = n * (first + last) / 2`, where the first term is 1, the last term is `num`,
@@ -31,7 +31,7 @@ context for summing a sequence of numbers starting from 1.
 
 The same strategy could be implemented differently
 
-- an arrow Function with Implicit Return
+- traditional Function with Implicit Return
 - iterative Approach
 - with Input Validation
   
