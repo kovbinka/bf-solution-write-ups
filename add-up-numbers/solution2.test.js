@@ -1,6 +1,6 @@
 'use strict';
 
-import { addUp } from "./solution2.js";
+import { addUp } from './solution2.js';
 
 describe('Second Tests', () => {
     it('should return 15 when 5 is passed', () => {
@@ -15,4 +15,4 @@ describe('Second Tests', () => {
     it('should return 55 when 10 is passed', () => {
         expect(addUp(10)).toEqual(55);
     });
-})
+});
